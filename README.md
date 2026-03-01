@@ -31,7 +31,7 @@ Go to the [Releases](../../releases) page and download the latest version:
 - `Aegis_Security.exe` — Main application
 - `Aegis_Guardian.exe` — Background protection watchdog
 
-Place **both files in the same folder** and run `Aegis_Security.exe`.
+Place **both files in the same folder** and run first `Aegis_Guardian.exe` and second `Aegis_Security.exe`.
 
 ### Requirements
 - Windows 10 / 11 (64-bit)
