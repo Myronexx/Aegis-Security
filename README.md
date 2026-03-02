@@ -62,7 +62,18 @@ py -3.12 -m pip install pyqt5 psutil requests watchdog nuitka zstandard
 py -3.12 -m nuitka --standalone --windows-console-mode=disable --windows-company-name="Aegis Cyber Security" --windows-product-name="Aegis Guardian Core" --windows-file-version="1.0.0.0" --windows-icon-from-ico=guardian.ico --mingw64 Aegis_Guardian.py
 
 # 3. Compile Security Matrix (GUI)
-py -3.12 -m nuitka --standalone --windows-console-mode=disable --windows-company-name="Aegis Cyber Security" --windows-product-name="Aegis Defense Matrix" --windows-file-version="1.0.0.0" --windows-icon-from-ico=aegis.ico --enable-plugin=pyqt5 --mingw64 aegis_security.py
+py -3.12 -m nuitka --standalone --windows-console-mode=disable ^
+  --windows-company-name="Aegis Cyber Security" ^
+  --windows-product-name="Aegis Defense Matrix" ^
+  --windows-file-version="1.5.0.0" ^
+  --windows-icon-from-ico=aegis.ico ^
+  --enable-plugin=pyqt5 ^
+  --include-package=watchdog ^
+  --include-package=psutil ^
+  --include-package=requests ^
+  --windows-uac-admin-level=highestAvailable ^
+  --mingw64 aegis_security.py
+
 [!IMPORTANT]
 After compiling: Nuitka will create two .dist folders. You must create a new folder (e.g., Aegis_Final), move everything from aegis_security.dist into it, and then copy Aegis_Guardian.exe from its .dist folder into that same Aegis_Final folder.
 
@@ -80,7 +91,11 @@ If Guardian itself is killed, Security revives it within 3 seconds.
 Both processes protect each other — Mutual Resurrection.
 
 📸 Screenshots
-Soon...
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/335bdddd-3e05-4701-bf83-1351b2ba7a01" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/084fef4b-c12b-41ec-b34e-d0c65dc134c9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a67f3e61-6a48-4cc7-b399-44d9d9229408" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c5ce9f8-829d-4bd2-93a8-34942f5520db" />
+
 
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
