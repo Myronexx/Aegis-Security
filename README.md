@@ -81,10 +81,10 @@ If Guardian itself is killed, Security revives it within 3 seconds.
 Both processes protect each other — Mutual Resurrection.
 
 📸 Screenshots
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/335bdddd-3e05-4701-bf83-1351b2ba7a01" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/084fef4b-c12b-41ec-b34e-d0c65dc134c9" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a67f3e61-6a48-4cc7-b399-44d9d9229408" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c5ce9f8-829d-4bd2-93a8-34942f5520db" />
+< https://github.com/user-attachments/assets/335bdddd-3e05-4701-bf83-1351b2ba7a01 >
+< https://github.com/user-attachments/assets/084fef4b-c12b-41ec-b34e-d0c65dc134c9 >
+< https://github.com/user-attachments/assets/a67f3e61-6a48-4cc7-b399-44d9d9229408 >
+< https://github.com/user-attachments/assets/5c5ce9f8-829d-4bd2-93a8-34942f5520db >
 
 
 📄 License
