@@ -59,10 +59,10 @@ You can build it yourself using the instructions below.
 py -3.12 -m pip install pyqt5 psutil requests watchdog nuitka zstandard
 
 # Compile Guardian
-py -3.12 -m nuitka --onefile --windows-disable-console --windows-icon-from-ico=guardian.ico --enable-plugin=pyqt5 --mingw64 --output-filename=Aegis_Guardian.exe Aegis_Guardian.py
+py -3.12 -m nuitka --standalone --windows-console-mode=disable --windows-company-name="Aegis Cyber Security" --windows-product-name="Aegis Guardian Core" --windows-file-version="1.0.0.0" --windows-icon-from-ico=guardian.ico --mingw64 Aegis_Guardian.py
 
 # Compile Security
-py -3.12 -m nuitka --onefile --windows-disable-console --windows-icon-from-ico=aegis.ico --enable-plugin=pyqt5 --mingw64 --output-filename=Aegis_Security.exe aegis_security.py
+py -3.12 -m nuitka --standalone --windows-console-mode=disable --windows-company-name="Aegis Cyber Security" --windows-product-name="Aegis Defense Matrix" --windows-file-version="1.0.0.0" --windows-icon-from-ico=aegis.ico --enable-plugin=pyqt5 --mingw64 aegis_security.py
 ```
 
 ---
