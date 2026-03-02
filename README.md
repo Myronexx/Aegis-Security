@@ -1,10 +1,10 @@
 # 🛡️ Aegis Security | Defense Matrix
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge" alt="Version">
-  <img src="https://img.shields.io/badge/platform-Windows-lightgrey?style=for-the-badge" alt="Platform">
-  <img src="https://img.shields.io/badge/python-3.12-green?style=for-the-badge" alt="Python">
-  <img src="https://img.shields.io/badge/license-MIT-orange?style=for-the-badge" alt="License">
+  <img src="[https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)" alt="Version">
+  <img src="[https://img.shields.io/badge/platform-Windows-lightgrey?style=for-the-badge](https://img.shields.io/badge/platform-Windows-lightgrey?style=for-the-badge)" alt="Platform">
+  <img src="[https://img.shields.io/badge/python-3.12-green?style=for-the-badge](https://img.shields.io/badge/python-3.12-green?style=for-the-badge)" alt="Python">
+  <img src="[https://img.shields.io/badge/license-MIT-orange?style=for-the-badge](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge)" alt="License">
 </p>
 
 > **A powerful, lightweight antivirus and system protection tool for Windows — built with Python and PyQt5.**
@@ -32,7 +32,7 @@
 Go to the [Releases](../../releases) page and download the latest `.rar` or `.zip` archive.
 
 > [!WARNING]  
-> **CRITICAL DIRECTORY RULE:** > After extracting the downloaded archive, **DO NOT** separate the files. `Aegis_Security.exe` and `Aegis_Guardian.exe` (along with any other generated folders) **MUST remain in the exact same folder**. If you move the main executable to your Desktop alone, the GUI will not open and the Guardian architecture will fail.
+> **CRITICAL DIRECTORY RULE:** After extracting the downloaded archive, **DO NOT** separate the files. `Aegis_Security.exe` and `Aegis_Guardian.exe` (along with any other generated folders) **MUST remain in the exact same folder**. If you move the main executable to your Desktop alone, the GUI will not open and the Guardian architecture will fail.
 
 **Run Instructions:**
 1. Extract the archive to a folder of your choice.
@@ -87,16 +87,6 @@ If Guardian itself is killed, Security revives it within 3 seconds.
 Both processes protect each other — Mutual Resurrection.
 
 📸 Screenshots
-## 📸 Screenshots
-
-![Screenshot 1](https://github.com/user-attachments/assets/3959966a-7128-43aa-8682-cd338c55a2e6)
-
-![Screenshot 2](https://github.com/user-attachments/assets/f454ced0-b5d7-4cfd-a6d3-0874b249e3fe)
-
-![Screenshot 3](https://github.com/user-attachments/assets/bd13eb30-82da-41e3-aa56-901a1115b11d)
-
-![Screenshot 4](https://github.com/user-attachments/assets/b6c04c39-2f43-4baf-b9d0-7f82c69d6db2)
-
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
