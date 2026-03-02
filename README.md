@@ -1,12 +1,5 @@
 # 🛡️ Aegis Security | Defense Matrix
 
-<p align="center">
-  <img src="[https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)" alt="Version">
-  <img src="[https://img.shields.io/badge/platform-Windows-lightgrey?style=for-the-badge](https://img.shields.io/badge/platform-Windows-lightgrey?style=for-the-badge)" alt="Platform">
-  <img src="[https://img.shields.io/badge/python-3.12-green?style=for-the-badge](https://img.shields.io/badge/python-3.12-green?style=for-the-badge)" alt="Python">
-  <img src="[https://img.shields.io/badge/license-MIT-orange?style=for-the-badge](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge)" alt="License">
-</p>
-
 > **A powerful, lightweight antivirus and system protection tool for Windows — built with Python and PyQt5.**
 
 ---
