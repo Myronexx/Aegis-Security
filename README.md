@@ -62,17 +62,7 @@ py -3.12 -m pip install pyqt5 psutil requests watchdog nuitka zstandard
 py -3.12 -m nuitka --standalone --windows-console-mode=disable --windows-company-name="Aegis Cyber Security" --windows-product-name="Aegis Guardian Core" --windows-file-version="1.0.0.0" --windows-icon-from-ico=guardian.ico --mingw64 Aegis_Guardian.py
 
 # 3. Compile Security Matrix (GUI)
-py -3.12 -m nuitka --standalone --windows-console-mode=disable `
-  --windows-company-name="Aegis Cyber Security" `
-  --windows-product-name="Aegis Defense Matrix" `
-  --windows-file-version="1.5.0.0" `
-  --windows-icon-from-ico=aegis.ico `
-  --enable-plugin=pyqt5 `
-  --include-package=watchdog `
-  --include-package=psutil `
-  --include-package=requests `
-  --windows-uac-admin-level=highestAvailable `
-  --mingw64 aegis_security.py
+py -3.12 -m nuitka --standalone --windows-console-mode=disable --windows-company-name="Aegis Cyber Security" --windows-product-name="Aegis Defense Matrix" --windows-file-version="1.5.0.0" --windows-icon-from-ico=aegis.ico --enable-plugin=pyqt5 --include-package=watchdog --include-package=psutil --include-package=requests --mingw64 aegis_security.py
 
 [!IMPORTANT]
 After compiling: Nuitka will create two .dist folders. You must create a new folder (e.g., Aegis_Final), move everything from aegis_security.dist into it, and then copy Aegis_Guardian.exe from its .dist folder into that same Aegis_Final folder.
